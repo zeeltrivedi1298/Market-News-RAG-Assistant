@@ -19,11 +19,11 @@ class Config:
     _embedding_model = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
     EMBEDDING_MODEL = _embedding_model.strip() if isinstance(_embedding_model, str) else "all-MiniLM-L6-v2"
     
-    _llm_fallback_model = os.getenv("LLM_FALLBACK_MODEL", "")
-    LLM_FALLBACK_MODEL = _llm_fallback_model.strip() if isinstance(_llm_fallback_model, str) and _llm_fallback_model.strip() else LLM_MODEL
+     _llm_fallback_model = os.getenv("LLM_FALLBACK_MODEL", "gpt-4")
+    LLM_FALLBACK_MODEL = _llm_fallback_model.strip() if isinstance(_llm_fallback_model, str) and _llm_fallback_model.strip() else "gpt-4"
     
-    _embedding_fallback_model = os.getenv("EMBEDDING_FALLBACK_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
-    EMBEDDING_FALLBACK_MODEL = _embedding_fallback_model.strip() if isinstance(_embedding_fallback_model, str) else "sentence-transformers/all-MiniLM-L6-v2"
+    _embedding_fallback_model = os.getenv("EMBEDDING_FALLBACK_MODEL", "all-MiniLM-L12-v2")
+    EMBEDDING_FALLBACK_MODEL = _embedding_fallback_model.strip() if isinstance(_embedding_fallback_model, str) else "all-MiniLM-L12-v2"
     
     ENABLE_LLM_FALLBACK = os.getenv("ENABLE_LLM_FALLBACK", "true").lower() == "true"
     ENABLE_EMBEDDING_FALLBACK = os.getenv("ENABLE_EMBEDDING_FALLBACK", "true").lower() == "true"
