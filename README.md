@@ -23,7 +23,6 @@ Live link: https://f6afa4b23a92570091.gradio.live/
 - **Vector Store**: ChromaDB
 - **LLM**: OpenAI API
 
-For detailed architecture documentation, see [ARCHITECTURE.md](ARCHITECTURE.md)
 
 ## Project Structure
 
