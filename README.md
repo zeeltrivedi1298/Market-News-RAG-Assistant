@@ -1,7 +1,7 @@
 # Financial News Chat Application
 
 A RAG (Retrieval-Augmented Generation) based chat application that allows users to ask questions about recent financial news and receive relevant summary responses.
-Live link: https://f6afa4b23a92570091.gradio.live/ 
+Live link: https://842e5003c9cf9eb0d7.gradio.live/
 
 ## Features
 
