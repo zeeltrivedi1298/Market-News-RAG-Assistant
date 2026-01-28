@@ -210,7 +210,4 @@ This implementation prioritizes:
 - **Simplicity**: Minimal, focused codebase
 - **Verifiability**: Structured citations with exact quotes
 
-## License
-
-This project is created for interview assignment purposes.
 
